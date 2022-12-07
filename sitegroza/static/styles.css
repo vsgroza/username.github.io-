@@ -1,0 +1,78 @@
+    @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Oswald:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap"); /*импортирован из сайта гугла */
+
+body {
+  font-size: 20px; /*размер шрифта*/
+  font-family: "Oswald", sans-serif; /*стиль шрифта*/
+  font-weight: 400;
+  background-color: white;
+}
+
+div {
+  padding: 15px;
+}
+div.myname {
+  background-color: #173dbd;
+}
+
+div.hobby {
+    background-color: #d860e1;
+}
+
+div.experience {
+    background-color: #f3eeef;
+}
+
+td{
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #6d031c;
+    box-shadow: inset 2px 2px 5px;
+}
+
+label {
+    padding-right: 5px;
+    color: white
+}
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.548);
+    color: white;
+
+}
+
+form {
+    background-color: #6d031c;
+    padding: 15px;
+}
+
+th {
+  color: #5f1e60 ;
+}
+
+h1 {
+  color: white
+}
+
+.card {
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+input{
+  box-shadow: inset 2px 2px 5px;
+  width: 200px;
+  text-align: center;
+}
+
+textarea {
+  box-shadow: inset 2px 2px 5px;
+  margin-top: 10px;
+  
+}
+
+button {
+  width: 200px;
+  height: 25px;
+  margin-left: 15px;
+}
+
