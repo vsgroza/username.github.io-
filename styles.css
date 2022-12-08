@@ -6,7 +6,18 @@ body {
   font-weight: 400;
   background-color: white;
 }
+.container {
+  max-width: 750px;
+  margin: auto;
+}
+.avatar {
+  width: 25%;
+  height: 25%;
+  border: 1px solid #6d031c;
+  border-radius: 25px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
 
+}
 div {
   padding: 15px;
 }
@@ -27,6 +38,10 @@ td{
     padding: 20px;
     border: 1px solid #6d031c;
     box-shadow: inset 2px 2px 5px;
+}
+
+td.workapb:hover {
+  box-shadow: inset 2px 2px 5px #009ddb;
 }
 
 label {
@@ -69,10 +84,44 @@ textarea {
   margin-top: 10px;
   
 }
+.apb {
+  text-decoration: none;
+  color: #009ddb;
+}
 
-button {
+.apb:hover {
+  color: #337ab7;
+
+}
+.apb:visited {
+  color: royalblue;
+}
+
+.apb:active {
+  color: #7a6aff;
+}
+
+.links {
+  height: 100px;
+  width: 100px;
+}
+
+.links:hover {
+  box-shadow: inset 0 0 15px 10px #305598;
+  border: none;
+  border-radius: 25px;
+}
+
+.btn {
   width: 200px;
   height: 25px;
-  margin-left: 15px;
+  margin-left: 25px;
+  background: white;
+  border: none;
+}
+
+.btn:hover {
+  background: #305598;
+  box-shadow:  0 0 15px 7px #d860e1;
 }
 
