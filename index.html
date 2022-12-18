@@ -13,17 +13,30 @@
   </head>
   <body>
     <div class="container">
-      <img
-        src="https://kartinkived.ru/wp-content/uploads/2021/12/avatarka-dlya-vatsapa-lev-v-ochkah-otrazhayutsya-zebry.jpg"
-        alt="Моя аватарка" class="avatar" />
-      <div class="myname card">
-        <h1>Groza Vadim</h1>
-        <p>
-          Я работаю в Банке. <strong>Хочу</strong> сменить род деятельности.
-          <strong>Верю</strong>, что все <strong>получится!</strong>
-        </p>
-        <p><em>Я люблю путешествия! Надеюсь перебраться в г. Гданьск!</em></p>
+      <div class="info">
+          <img
+            src="https://kartinkived.ru/wp-content/uploads/2021/12/avatarka-dlya-vatsapa-lev-v-ochkah-otrazhayutsya-zebry.jpg"
+            alt="Моя аватарка" class="avatar" />
+        
+        <div class="myname card">
+          <h1>Groza Vadim</h1>
+          <p>
+            Я работаю в Банке. <strong>Хочу</strong> сменить род деятельности.
+            <strong>Верю</strong>, что все <strong>получится!</strong>
+          </p>
+          <p><em>Я люблю путешествия! Надеюсь перебраться в г. Гданьск!</em></p>
+          <a href="https://www.facebook.com/profile.php?id=100077120978327" target="_blank">
+            <img src="https://storage.hstock.org/products/8251/988c05a8-4410-460b-9940-8ba435cb74c0-800.png" class="links" />
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <img
+              src="https://avatars.dzeninfra.ru/get-zen_doc/3431006/pub_600e1656cdf9ab055a73b51e_600e16b610f02c6bc2d2c73c/scale_1200"
+              class="links" />
+          </a>
+        </div>
+        
       </div>
+
       <div class="hobby card">
         <h2>Мои хобби</h2>
         <ul>
@@ -68,37 +81,27 @@
       </div>
   
   
-      <form action="" class="card">
+      <form action="" class="form card">
   
         <h2>Связаться со мной</h2>
-  
-        <div>
-          <label for="text">Ваше имя</label>
-          <input type="text" id="text" placeholder="Введите имя" />
+        <div class="form-row">
+          <div class="form-group">
+            <label for="text">Ваше имя</label>
+            <input type="text" id="text" placeholder="Введите имя" />
+          </div>
+          <div class="form-group">
+            <label for="email">Ваш email</label>
+            <input type="email" id="email" placeholder="Введите email" />
+          </div>
         </div>
-        <div>
-          <label for="email">Ваш email</label>
-          <input type="email" id="email" placeholder="Введите email" />
-        </div>
-        <div>
+        <div class="form-group">
           <label for="message">Ваше сообщение</label>
-          <br />
-          <textarea id="message" cols="30" rows="10" placeholder="Введите сообщение"></textarea>
+          <textarea id="message" cols="" rows="" placeholder="Введите сообщение"></textarea>
         </div>
         <button name="submit" value="send" class="btn">Отправить</button> <br />
       </form>
   
-      <div class="footer card">
-        <h2>Список социальных сетей</h2>
-        <a href="https://www.facebook.com/profile.php?id=100077120978327" target="_blank">
-          <img src="https://storage.hstock.org/products/8251/988c05a8-4410-460b-9940-8ba435cb74c0-800.png"  class="links"/>
-        </a>
-        <a href="https://www.instagram.com/" target="_blank">
-          <img
-            src="https://avatars.dzeninfra.ru/get-zen_doc/3431006/pub_600e1656cdf9ab055a73b51e_600e16b610f02c6bc2d2c73c/scale_1200"
-            height="100" width="100" img src="https://storage.hstock.org/products/8251/988c05a8-4410-460b-9940-8ba435cb74c0-800.png" class="links"/>
-        </a>
-      </div>
+      
     </div>
   </body>
 </html>
