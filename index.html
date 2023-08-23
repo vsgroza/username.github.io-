@@ -1,107 +1,80 @@
 <!DOCTYPE html>
-<!-- saved from url=(0146)http://127.0.0.1:5500/VS%20Studio/project/%D0%94%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B8%D0%B5%20%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F/index.html -->
-<html lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords" content="Roots, Genus, Tree of life, Pedigree" />
-    <meta name="description" content="Это сайт - Грозы Вадима" />
-    <title>Мое дерево</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <div class="container">
-      <div class="info">
-          <img
-            src="https://kartinkived.ru/wp-content/uploads/2021/12/avatarka-dlya-vatsapa-lev-v-ochkah-otrazhayutsya-zebry.jpg"
-            alt="Моя аватарка" class="avatar" />
-        
-        <div class="myname card">
-          <h1>Groza Vadim</h1>
-          <p>
-            Я работаю в Банке. <strong>Хочу</strong> сменить род деятельности.
-            <strong>Верю</strong>, что все <strong>получится!</strong>
-          </p>
-          <p><em>Я люблю путешествия! Надеюсь перебраться в г. Гданьск!</em></p>
-          <a href="https://www.facebook.com/profile.php?id=100077120978327" target="_blank">
-            <img src="https://storage.hstock.org/products/8251/988c05a8-4410-460b-9940-8ba435cb74c0-800.png" class="links" />
-          </a>
-          <a href="https://www.instagram.com/" target="_blank">
-            <img
-              src="https://avatars.dzeninfra.ru/get-zen_doc/3431006/pub_600e1656cdf9ab055a73b51e_600e16b610f02c6bc2d2c73c/scale_1200"
-              class="links" />
-          </a>
-        </div>
-        
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <title>News Website</title>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <div class="logo">
+        <img src="IMG/logo.png" alt="News Logo" width="200" height="200">
       </div>
-
-      <div class="hobby card">
-        <h2>Мои хобби</h2>
-        <ul>
-          <li>Программирование</li>
-          <li> Путешествия</li>
-          <li>
-            Фильмы:
-            <ol>
-              <li>Триллеры</li>
-              <li>Ужастики</li>
-              <li>Фэнтези</li>
-            </ol>
-          </li>
-          <li>Стихи</li>
-          <li>Игры</li>
+      <nav class="center-nav">
+        <ul class="nav-links">
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">Новости</a></li>
+          <li><a href="#">Мероприятия</a></li>
+          <li><a href="#">Карта поляка</a></li>
+          <li><a href="#" id="questionsLink">Вопросы</a></li>
         </ul>
-      </div>
-      <div class="experience card">
-        <h2>Опыт работы</h2>
-        <table>
-          <thead>
-            <tr>
-              <th>Название</th>
-              <th>Должность</th>
-              <th>Период</th>
-            </tr>
-          </thead>
-  
-          <tbody>
-            <tr>
-              <td class="workapb"><a href="https://www.agroprombank.com/" target="_blank" class="apb">Агропромбанк</a></td>
-              <td>Кассир</td>
-              <td>2008-2013</td>
-            </tr>
-            <tr>
-              <td class="workapb"><a href="https://www.agroprombank.com/" target="_blank" class="apb">Агропромбанк</a></td>
-              <td>ПОДФТ</td>
-              <td>2013-2020</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-  
-  
-      <form action="" class="form card">
-  
-        <h2>Связаться со мной</h2>
-        <div class="form-row">
-          <div class="form-group">
-            <label for="text">Ваше имя</label>
-            <input type="text" id="text" placeholder="Введите имя" />
-          </div>
-          <div class="form-group">
-            <label for="email">Ваш email</label>
-            <input type="email" id="email" placeholder="Введите email" />
-          </div>
-        </div>
-        <div class="form-group">
-          <label for="message">Ваше сообщение</label>
-          <textarea id="message" cols="" rows="" placeholder="Введите сообщение"></textarea>
-        </div>
-        <button name="submit" value="send" class="btn">Отправить</button> <br />
-      </form>
-  
-      
+      </nav>
     </div>
-  </body>
+  </header>
+  
+  <section class="main-content">
+    <div class="main-info">
+      <h1>Welcome to Our News Website</h1>
+      <p>This is the main information about the website.</p>
+    </div>
+    <div class="news-column">
+      <h2>Latest News</h2>
+      <div class="news-article">
+        <h3>News Article 1</h3>
+        <p>This is a news article summary.</p>
+      </div>
+      <div class="news-article">
+        <h3>News Article 2</h3>
+        <p>This is another news article summary.</p>
+      </div>
+    </div>
+    <div class="sidebar">
+      <h2>Sidebar</h2>
+      <p>Content for the sidebar.</p>
+    </div>
+  </section>
+  
+  <section class="contact-form-popup" id="contactPopup">
+    <div class="popup-content">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+      
+        <button type="submit">Submit</button>
+      </form>
+      <button id="closePopup">Close</button>
+    </div>
+  </section>
+  
+  <footer>
+    <div class="social-links">
+      <a href="https://www.facebook.com/JasnaGoraNaddniestrze?mibextid=ZbWKwL" target="_blank"><img src="IMG/facebook.png" alt="Facebook" width="50" height="50"></a>
+      <a href="https://www.instagram.com" target="_blank"><img src="IMG/instagram.png" alt="Instagram" width="50" height="50"></a>
+      <a href="https://wa.me/37377724018" target="_blank"><img src="IMG/whatsapp.png" alt="WhatsApp" width="50" height="50"></a>
+    </div>
+    <p>&copy; 2023 News Website. All rights reserved.</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
 </html>
